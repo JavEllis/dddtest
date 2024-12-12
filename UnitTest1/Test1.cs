@@ -65,7 +65,7 @@ namespace SystemTests
 
         [TestMethod]
         public void TestDataPersistence()
-            // test if data has been saved
+            // test if data has been saved to text file
         {
             string testData = "John Doe\nok\nHad a good day\nyes\n2024-12-15 at 12pm to 1pm with Nia Lee\n";
             File.WriteAllText("info.txt", testData);
